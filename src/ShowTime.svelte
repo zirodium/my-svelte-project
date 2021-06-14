@@ -1,6 +1,7 @@
 <script>
+  export let name;
   export let time = new Date().toLocaleTimeString()
 </script>
-
-<p>{time}</p>
-
+<div>
+  <p class='lead text-muted'>{name} | {time} | {name}</p>
+</div>
